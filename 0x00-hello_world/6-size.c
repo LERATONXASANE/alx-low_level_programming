@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-/*
- *main -Entry
+/**
+ *main - Entry
  *
- *Rturn: Always 0 (succes)
+ *Rturn: Always 0 (success)
  */
-int main(void);
+int main(void)
 {
 char charType;
 int intType;
