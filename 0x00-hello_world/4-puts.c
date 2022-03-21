@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main; void{
+int main()
+{
   char []="Programming is like building a multilingual puzzle\n";
   int puts(const char *s);
 
