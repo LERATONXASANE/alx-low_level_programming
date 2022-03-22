@@ -4,11 +4,13 @@
 
 /*
  *main - print whether number n is positive or negative
- *depending on number generated.
+ *
  *Return: Always 0 (success)
  */
+
 int main(void)
 {
+
 int n;
 
 srand(time(0));
