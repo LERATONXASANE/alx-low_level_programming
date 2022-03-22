@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /*
- *main- Entry point
+ *main- code to print whether number n is positive or negative
  *
  *Return: Always 0 (success)
  */
