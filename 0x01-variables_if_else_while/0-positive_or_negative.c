@@ -3,8 +3,8 @@
 #include <stdlib.h>
 
 /*
- *main- code to print whether number n is positive or negative
- *
+ *main - print whether number n is positive or negative
+ *depending on number generated
  *Return: Always 0 (success)
  */
 int main(void)
