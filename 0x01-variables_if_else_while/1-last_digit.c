@@ -3,10 +3,10 @@
 #include <stdlib.h>
 
 /*
- *main - print whether number n is positive or negative
- *
- *Return: Always 0 (success)
- */
+*main - print what the last digit is
+*
+*Return: Always 0 (success)
+*/
 
 int main(void)
 {
