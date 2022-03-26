@@ -16,10 +16,8 @@ int main(void)
 		{
 			for (k = 48; k < 58; k++)
 			{
-				if (i == j || j == k || i == k)
+				if (i < j && j < k)
 				{
-					continue;
-				}
 				putchar(i);
 				putchar(j);
 				putchar(k);
@@ -34,9 +32,10 @@ int main(void)
 					putchar(',');
 					putchar(' ');
 				}
+				}
 			}
 		}
-		putchar('\n');
-		return (0);
 	}
+	putchar('\n');
+	return (0);
 }
