@@ -15,6 +15,8 @@ int main(void)
 	{
 		for (j = 49; j < 58; j++)
 		{
+		  if (i < j && i != j)
+		    {
 			putchar(i);
 			putchar(j);
 			if (i == 56 && j == 57)
@@ -26,6 +28,7 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
+		    }
 		}
 	}
 	putchar('\n');
