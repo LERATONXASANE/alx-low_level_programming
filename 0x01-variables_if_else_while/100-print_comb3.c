@@ -14,9 +14,9 @@ int main(void)
 	for (i = 48; i < 57; i++)
 	{
 		for (j = 49; j < 58; j++)
-{
-		  if (i < j && i != j)
 		{
+		  if (i < j && i != j)
+		  {
 			putchar(i);
 			putchar(j);
 			if (i == 56 && j == 57)
