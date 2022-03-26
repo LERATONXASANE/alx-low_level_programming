@@ -3,7 +3,8 @@
 /**
  * main - possible combos of 3 digits
  *
- * Return (0)
+ * Description: the code printsthr lowest combo of the 3 digits
+ * Return: Always 0 (success)
  */
 
 int main(void)
