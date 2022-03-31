@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * void - print_alphabet - prints all aphabets in lowercase
+ * print_alphabet - prints all aphabets in lowercase
  *
  * Description: They are sorted by default
  * Return: always 0 (success)
@@ -9,11 +9,11 @@
 
 void print_alphabet(void)
 {
-	char ch = 'a';
+	char c = 97;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (c = 97; c < 123; c++)
 	{
-		_putchar(ch);
+		_putchar(c);
 	}
 	_putchar('\n');
 }
