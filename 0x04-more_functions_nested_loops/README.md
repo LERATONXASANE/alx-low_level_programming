@@ -1,3 +1,2 @@
 Functions
-nested loops
-read me
+Nested loops

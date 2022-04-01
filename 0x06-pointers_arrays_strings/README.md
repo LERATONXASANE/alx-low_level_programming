@@ -1,1 +1,4 @@
-Read me 0x06
+Pointers
+Arrays
+Strings
+
